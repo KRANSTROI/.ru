@@ -1,0 +1,118 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Шапка */
+header {
+  background: #4CAF50;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+}
+
+/* Герой-секция */
+.hero {
+  background: url('construction.jpg') no-repeat center center/cover;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.hero .btn {
+  background: #FF5722;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.hero .btn:hover {
+  background: #E64A19;
+}
+
+/* Каталог */
+.catalog {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.catalog h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.equipment-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.equipment-item {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.equipment-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.equipment-item h3 {
+  font-size: 1.5rem;
+  margin: 15px 0 10px;
+}
+
+.equipment-item p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* Подвал */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+}
